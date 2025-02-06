@@ -3,11 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-#app settings
-appsettings.json
-appsettings.Development.json
-
-
 # User-specific files
 *.rsuser
 *.suo
@@ -324,6 +319,9 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
+
+swifttasks.Server/appsettings.json
+swifttasks.Server/appsettings.Development.json
 
 # Tabs Studio
 *.tss
